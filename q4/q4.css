@@ -1,0 +1,70 @@
+body{
+	padding-left: 10px;
+	font-family: sans-serif;
+}
+.show{
+	width: 200px;
+	font-size: small;
+}
+.entries{
+	position: absolute;
+	top: 28px;
+	right: 20px;
+	width: 1250px;
+}
+.customer-details{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 1000px;
+	font-size: large;
+	
+}
+.search{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 720px;
+	border: none;
+	
+}
+
+table{
+		border-collapse: collapse;
+		width: 60%;
+		font-size: small;
+	}
+	table,th,td{
+		border: 1px solid black;
+		height: 30px;
+		vertical-align: top;
+		text-indent: 7px;
+
+	}
+	th{
+		text-align: left;
+	}
+.pages{
+	
+	font-size: small;
+}
+.pagination{
+	position: absolute;
+	top: 280px;
+	left: 650px;
+	word-spacing: 5px;
+	font-size: small;
+
+	
+}
+.pagination a{
+	color: black;
+	text-decoration: none;
+}
+.pagination a.active{
+	border-radius: 50%;
+	background-color: dodgerblue;
+	color: white;
+	
+
+}

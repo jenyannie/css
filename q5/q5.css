@@ -1,0 +1,97 @@
+body{
+	font-family: sans-serif;
+}
+div{
+	display: inline-block;
+	height: 640px;
+	padding: 0px;
+}
+h1{
+	font-size: x-large;
+}
+img{
+	padding-left: 3px;
+	position: relative;
+	bottom: 150px;
+	width: 90px;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+.container1 h3,.content,.footer{
+	color: gray;
+}
+.container1{
+	background-color: black;
+	color: white;
+	width: 900px;
+	padding-left: 50px;
+	padding-top: 200px;
+	
+
+}
+.container1 h1, h3{
+	font-family: W Gothic L, sans-serif;
+	font-style: normal;
+	font-weight: 50;
+	font-stretch: semi-expanded;
+	line-height: 10%;
+}
+.container1 h3,p{
+	line-height: 150%;
+}
+.container2 {
+	background-color: seagreen;
+	color: white;
+	padding-left: 50px;
+	padding-top: 200px;
+	
+}
+.container2 h3{
+	font-family: W Gothic L, sans-serif;
+	font-style: normal;
+	font-weight: 50;
+	font-stretch: semi-expanded;
+}
+.content{
+	font-size: small;
+	
+}
+input[type="text"]{
+	background-color: seagreen;
+	border: none;
+	border-bottom: 1px solid white;
+	width: 300px;
+}
+::placeholder{
+	color: lightgray;
+}
+.button1{
+	background-color: seagreen;
+	color: white;
+	font-size: xx-small;
+	border: none;
+	width: 90px;
+	height: 25px;
+}
+.button2{
+	background-color: white;
+	color: seagreen;
+	font-size: xx-small;
+	border: none;
+	width: 60px;
+	height: 25px;
+	text-align: center;
+	margin-left: 5px;
+}
+a{
+	font-size: small;
+}
+.footer{
+	font-size: x-small;
+	left:60px;
+	bottom: 60px;
+	position: absolute;
+
